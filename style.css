@@ -18,3 +18,20 @@ h1{
 	font-size: 3.5em;
 
 }
+
+
+iframe#example1 {
+  border: none;
+  width: 600px;
+  height: 480px;
+}
+#example1-code {
+  padding-top: 16px;
+}
+#example1-code pre, #example1-code code {
+  text-align: left;
+  font-size: 11px;
+  line-height: 1.2;
+  overflow: auto;
+  white-space: pre;
+}
