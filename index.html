@@ -8,13 +8,18 @@
 
 		<link rel="stylesheet" href="style.css">
 
-
-
-		<iframe id="app" src="https://berginlab.shinyapps.io/plotter/" style="border: none; width: 100%; height: 500px" frameborder
-
+		<script type="text/javascript">
+  		function resizeIframe(iframe) {
+    		iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+  		}
+		</script>
 	</head>
 
 	<body>
+
+		<div class="section">
+			<iframe id="example1" src="https://berginlab.shinyapps.io/plotter/" style="border: solid; width: 80%; height: 800px" frameborder="0" onload="resizeIframe(this)"></iframe>
+		</div>
 
 		<h1>Data Visualization App</h1>
 
