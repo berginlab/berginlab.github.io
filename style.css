@@ -4,8 +4,6 @@ body{
 	background-size: cover;
 }
 
-
-
 h1{
 	left: 0;
 	/*line-height: 10px;*/
@@ -14,26 +12,41 @@ h1{
 	position: absolute;
 	top: 5%;
 	width: 100%;
-	color: blue;
-	font-size: 3.5em;
+	color: black;
+	font-size: 2.5em;
 
 }
-
 
 iframe#example1 {
-  border: none;
+  /*border: none;*/
   width: 600px;
-  height: 480px;
+  height: 600px;
+	border-radius: 15px;
 }
+
 #example1-code {
   padding-top: 16px;
 }
+
 #example1-code pre, #example1-code code {
-  text-align: left;
+  text-align: center;
   font-size: 11px;
   line-height: 1.2;
   overflow: auto;
   white-space: pre;
+}
+
+iframe {
+  -moz-transform: scale(0.75, 0.75);
+  -webkit-transform: scale(0.75, 0.75);
+  -o-transform: scale(0.75, 0.75);
+  -ms-transform: scale(0.75, 0.75);
+  transform: scale(0.75, 0.75);
+  -moz-transform-origin: top center;
+  -webkit-transform-origin: top center;
+  -o-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
 }
 
 .section{
